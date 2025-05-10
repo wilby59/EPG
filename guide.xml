@@ -1,101 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 <tv generator-info-name="Guide IPTV pré-corrigé"
-    source-info-url="https://raw.githubusercontent.com/wilby59/EPG/main/guide.xml.gz"
+    source-info-url="https://raw.githubusercontent.com/wilby59/EPG/main/guide.xml"
     source-info-name="EPG.wilby59">
 
-  <!-- ===== CANAL+ ===== -->
+  <!-- CANAL+ -->
   <channel id="CanalPlus.fr">
     <display-name lang="fr">Canal+</display-name>
-    <!-- <icon src="URL_DU_LOGO"/> -->
   </channel>
   <channel id="CanalPlusCinemaCentre.fr">
     <display-name lang="fr">Canal+ Cinéma Centre</display-name>
   </channel>
-  <channel id="CanalPlusCinemaOuest.fr">
-    <display-name lang="fr">Canal+ Cinéma Ouest</display-name>
+  <!-- … toutes les autres chaînes… -->
+
+  <!-- TNT France (26 chaînes) -->
+  <channel id="TF1">
+    <display-name lang="fr">TF1</display-name>
   </channel>
-  <channel id="CanalPlusCinemaReunion.fr">
-    <display-name lang="fr">Canal+ Cinéma Réunion</display-name>
-  </channel>
-  <channel id="CanalPlusCinemas.fr">
-    <display-name lang="fr">Canal+ Cinéma(s)</display-name>
-  </channel>
-  <channel id="CanalPlusDecale.fr">
-    <display-name lang="fr">Canal+ Décalé</display-name>
-  </channel>
-  <channel id="CanalPlusFamily.fr">
-    <display-name lang="fr">Canal+ Family</display-name>
-  </channel>
-  <channel id="CanalPlusFoot.fr">
-    <display-name lang="fr">Canal+ Foot</display-name>
-  </channel>
-  <channel id="CanalPlusGrandEcran.fr">
-    <display-name lang="fr">Canal+ Grand Ecran</display-name>
-  </channel>
-  <channel id="CanalPlusHaHa.fr">
-    <display-name lang="fr">Canal+ Ha Ha!</display-name>
+  <!-- …
+       ajoutez ici chacune des 26 chaînes TNT
+       en remplaçant <channel id="…"> par vos tvg-id exacts
+  -->
+
+  <!-- Orange Max (tvg-id exact à indiquer) -->
+  <channel id="VOTRE_TVGID_ORANGE_MAX">
+    <display-name lang="fr">Orange Max</display-name>
   </channel>
 
-  <!-- ===== CINÉ+ ===== -->
-  <channel id="CinePlusClassic.fr">
-    <display-name lang="fr">Ciné+ Classic</display-name>
-  </channel>
-  <channel id="CinePlusClub.fr">
-    <display-name lang="fr">Ciné+ Club</display-name>
-  </channel>
-  <channel id="CinePlusEmotion.fr">
-    <display-name lang="fr">Ciné+ Émotion</display-name>
-  </channel>
-  <channel id="CinePlusFamily.fr">
-    <display-name lang="fr">Ciné+ Family</display-name>
-  </channel>
-  <channel id="CinePlusFestival.fr">
-    <display-name lang="fr">Ciné+ Festival</display-name>
-  </channel>
-  <channel id="CinePlusFrisson.fr">
-    <display-name lang="fr">Ciné+ Frisson</display-name>
-  </channel>
-  <channel id="CinePlusOCS.fr">
-    <display-name lang="fr">Ciné+ OCS</display-name>
-  </channel>
-  <channel id="CinePlusPremier.fr">
-    <display-name lang="fr">Ciné+ Premier</display-name>
+  <!-- SFR Play (tvg-id exact à indiquer) -->
+  <channel id="VOTRE_TVGID_SFR_PLAY">
+    <display-name lang="fr">SFR Play</display-name>
   </channel>
 
-  <!-- ===== DISNEY & OCS ===== -->
-  <channel id="DisneyChannel.fr">
-    <display-name lang="fr">Disney Channel</display-name>
-  </channel>
-  <channel id="OCS.fr">
-    <display-name lang="fr">Orange Cinéma Séries</display-name>
-  </channel>
-  <channel id="OCSChoc.fr">
-    <display-name lang="fr">Orange Ciné Choc</display-name>
-  </channel>
-  <channel id="OCSCity.fr">
-    <display-name lang="fr">OCS City</display-name>
-  </channel>
-  <channel id="OCSCitygenerationHBO.fr">
-    <display-name lang="fr">OCS City génération HBO</display-name>
-  </channel>
-  <channel id="OCSGeants.fr">
-    <display-name lang="fr">OCS Géants</display-name>
-  </channel>
-  <channel id="OCSHappy.fr">
-    <display-name lang="fr">Orange Ciné Happy</display-name>
-  </channel>
-  <channel id="OCSMax.fr">
-    <display-name lang="fr">Orange Ciné Max</display-name>
-  </channel>
-  <channel id="OCSNovo.fr">
-    <display-name lang="fr">Orange Ciné Novo</display-name>
-  </channel>
+  <!-- … et enfin vos <programme> si vous voulez du contenu statique … -->
 
-  <!-- ===== À COMPLÉTER ===== -->
-  <!-- 1) Les 26 chaînes TNT France (id et display-name) -->
-  <!-- 2) Orange Max (tvg-id exact) -->
-  <!-- 3) SFR Play (tvg-id exact) -->
-
-  <!-- Vous pouvez ensuite ajouter ici vos balises <programme>…</programme> -->
 </tv>
